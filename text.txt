@@ -1,0 +1,4 @@
+npx @modelcontextprotocol/inspector
+nvm use 18.18.1
+netstat -ano | findstr :8080
+mvn spring-boot:run
