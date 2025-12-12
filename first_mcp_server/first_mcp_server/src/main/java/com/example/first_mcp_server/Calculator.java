@@ -20,6 +20,7 @@ public class Calculator {
     public int multiply(@McpToolParam int a, @McpToolParam int b) {
         return a * b;
     }
+    
     @McpTool(name = "divide",  description = "Performs dividing operations.")
     public int divide(@McpToolParam int a, @McpToolParam int b) {
         if (b == 0) {
